@@ -188,7 +188,7 @@ namespace Logistiks.Formulaires
         private void dtgrid_approvisionnement_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             txt_code_approv.Text = dtgrid_approvisionnement.SelectedRows[0].Cells[0].Value.ToString();
-            txt_produit.Text= dtgrid_approvisionnement.SelectedRows[0].Cells[2].Value.ToString();
+            dtp_date_approv.Text= dtgrid_approvisionnement.SelectedRows[0].Cells[1].Value.ToString();
             cbx_fournisseur.Text= dtgrid_approvisionnement.SelectedRows[0].Cells[3].Value.ToString();
             cbx_depot.Text= dtgrid_approvisionnement.SelectedRows[0].Cells[4].Value.ToString();
             txt_quantite.Text= dtgrid_approvisionnement.SelectedRows[0].Cells[5].Value.ToString();
