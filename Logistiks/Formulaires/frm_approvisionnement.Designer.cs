@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lstbox_equipement = new System.Windows.Forms.ListBox();
             this.dtgrid_approvisionnement = new System.Windows.Forms.DataGridView();
             this.metroButton2 = new MetroFramework.Controls.MetroButton();
@@ -46,6 +46,7 @@
             this.dt_expiration = new MetroFramework.Controls.MetroDateTime();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.txt_produit = new MetroFramework.Controls.MetroTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dtgrid_approvisionnement)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,41 +70,41 @@
             this.dtgrid_approvisionnement.BackgroundColor = System.Drawing.Color.Black;
             this.dtgrid_approvisionnement.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dtgrid_approvisionnement.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgrid_approvisionnement.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgrid_approvisionnement.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dtgrid_approvisionnement.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dtgrid_approvisionnement.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dtgrid_approvisionnement.DefaultCellStyle = dataGridViewCellStyle2;
             this.dtgrid_approvisionnement.GridColor = System.Drawing.Color.White;
             this.dtgrid_approvisionnement.Location = new System.Drawing.Point(244, 317);
             this.dtgrid_approvisionnement.Name = "dtgrid_approvisionnement";
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgrid_approvisionnement.RowHeadersDefaultCellStyle = dataGridViewCellStyle7;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black;
-            this.dtgrid_approvisionnement.RowsDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgrid_approvisionnement.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
+            this.dtgrid_approvisionnement.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dtgrid_approvisionnement.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dtgrid_approvisionnement.ShowEditingIcon = false;
             this.dtgrid_approvisionnement.Size = new System.Drawing.Size(1035, 283);
@@ -161,7 +162,7 @@
             this.txt_cout.FontWeight = MetroFramework.MetroTextBoxWeight.Light;
             this.txt_cout.ForeColor = System.Drawing.Color.Crimson;
             this.txt_cout.Lines = new string[0];
-            this.txt_cout.Location = new System.Drawing.Point(276, 211);
+            this.txt_cout.Location = new System.Drawing.Point(276, 206);
             this.txt_cout.MaxLength = 50;
             this.txt_cout.Name = "txt_cout";
             this.txt_cout.PasswordChar = '\0';
@@ -202,7 +203,7 @@
             this.txt_quantite.FontWeight = MetroFramework.MetroTextBoxWeight.Light;
             this.txt_quantite.ForeColor = System.Drawing.Color.Crimson;
             this.txt_quantite.Lines = new string[0];
-            this.txt_quantite.Location = new System.Drawing.Point(276, 175);
+            this.txt_quantite.Location = new System.Drawing.Point(276, 171);
             this.txt_quantite.MaxLength = 50;
             this.txt_quantite.Name = "txt_quantite";
             this.txt_quantite.PasswordChar = '\0';
@@ -352,11 +353,53 @@
             this.label2.TabIndex = 47;
             this.label2.Text = "Expiration";
             // 
+            // txt_produit
+            // 
+            // 
+            // 
+            // 
+            this.txt_produit.CustomButton.Image = null;
+            this.txt_produit.CustomButton.Location = new System.Drawing.Point(265, 2);
+            this.txt_produit.CustomButton.Name = "";
+            this.txt_produit.CustomButton.Size = new System.Drawing.Size(25, 25);
+            this.txt_produit.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txt_produit.CustomButton.TabIndex = 1;
+            this.txt_produit.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txt_produit.CustomButton.UseSelectable = true;
+            this.txt_produit.CustomButton.Visible = false;
+            this.txt_produit.DisplayIcon = true;
+            this.txt_produit.FontSize = MetroFramework.MetroTextBoxSize.Medium;
+            this.txt_produit.FontWeight = MetroFramework.MetroTextBoxWeight.Light;
+            this.txt_produit.ForeColor = System.Drawing.Color.Crimson;
+            this.txt_produit.Lines = new string[0];
+            this.txt_produit.Location = new System.Drawing.Point(276, 71);
+            this.txt_produit.MaxLength = 50;
+            this.txt_produit.Name = "txt_produit";
+            this.txt_produit.PasswordChar = '\0';
+            this.txt_produit.PromptText = "Entrez le nom de code de l\'approvisionnement";
+            this.txt_produit.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txt_produit.SelectedText = "";
+            this.txt_produit.SelectionLength = 0;
+            this.txt_produit.SelectionStart = 0;
+            this.txt_produit.ShortcutsEnabled = true;
+            this.txt_produit.ShowClearButton = true;
+            this.txt_produit.Size = new System.Drawing.Size(293, 30);
+            this.txt_produit.Style = MetroFramework.MetroColorStyle.Red;
+            this.txt_produit.TabIndex = 48;
+            this.txt_produit.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_produit.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.txt_produit.UseSelectable = true;
+            this.txt_produit.UseStyleColors = true;
+            this.txt_produit.WaterMark = "Entrez le nom de code de l\'approvisionnement";
+            this.txt_produit.WaterMarkColor = System.Drawing.Color.Crimson;
+            this.txt_produit.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
             // frm_approvisionnement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1291, 615);
+            this.Controls.Add(this.txt_produit);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dt_expiration);
@@ -403,5 +446,6 @@
         private MetroFramework.Controls.MetroDateTime dt_expiration;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private MetroFramework.Controls.MetroTextBox txt_produit;
     }
 }

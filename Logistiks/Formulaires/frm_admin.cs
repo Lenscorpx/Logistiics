@@ -57,5 +57,10 @@ namespace Logistiks.Formulaires
             var fr = new frm_structures();
             fr.Show();
         }
+
+        private void tileItem9_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            tileItem6_ItemClick(sender, e);
+        }
     }
 }

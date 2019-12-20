@@ -189,10 +189,14 @@ namespace Logistiks.Formulaires
         {
             txt_code_approv.Text = dtgrid_approvisionnement.SelectedRows[0].Cells[0].Value.ToString();
             dtp_date_approv.Text= dtgrid_approvisionnement.SelectedRows[0].Cells[1].Value.ToString();
-            cbx_fournisseur.Text= dtgrid_approvisionnement.SelectedRows[0].Cells[3].Value.ToString();
-            cbx_depot.Text= dtgrid_approvisionnement.SelectedRows[0].Cells[4].Value.ToString();
-            txt_quantite.Text= dtgrid_approvisionnement.SelectedRows[0].Cells[5].Value.ToString();
-            txt_cout.Text= dtgrid_approvisionnement.SelectedRows[0].Cells[6].Value.ToString();
+            dt_date_fabrication.Text= dtgrid_approvisionnement.SelectedRows[0].Cells[2].Value.ToString();
+            dt_expiration.Text= dtgrid_approvisionnement.SelectedRows[0].Cells[3].Value.ToString();
+            txt_produit.Text= dtgrid_approvisionnement.SelectedRows[0].Cells[4].Value.ToString();
+            cbx_fournisseur.Text= dtgrid_approvisionnement.SelectedRows[0].Cells[5].Value.ToString();
+            cbx_depot.Text = dtgrid_approvisionnement.SelectedRows[0].Cells[6].Value.ToString();
+            txt_quantite.Text = dtgrid_approvisionnement.SelectedRows[0].Cells[7].Value.ToString();
+            txt_cout.Text = dtgrid_approvisionnement.SelectedRows[0].Cells[8].Value.ToString();
+
         }
 
         private void metroButton2_Click(object sender, EventArgs e)
